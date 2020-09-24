@@ -1,0 +1,10 @@
+---
+dist: bioinic
+sudo: required
+before_install:
+  - sudo apt-get -y install texlive-latex-base texlive-latex-extra texlive-extra-utils
+addons:
+  apt:
+    update: true
+script:
+  - pdflatex applsci-915286-done/applsci-915286-done.tex
