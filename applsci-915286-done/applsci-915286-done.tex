@@ -146,16 +146,24 @@ $^{2}$ \quad Netherlands eScience Center, \hl{1098 XG} Amsterdam, The Netherland
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e.  \\) 
-\abstract{Genetics research is increasingly focusing on mining fully sequenced genomes and their annotations to identify the causal genes associated with traits (phenotypes) of interest. However, a~complex trait is typically associated with multiple quantitative trait loci (QTLs), each~comprising many genes, that can positively or negatively affect the trait of interest. To help breeders in ranking candidate genes, we developed an analytical platform called pbg-ld that provides semantically integrated geno- and phenotypic data on \textit{Solanaceae}%italics added
-	 species.~This platform combines both unstructured data from scientific literature and structured data from publicly available biological databases using the Linked Data approach. In particular, QTLs were extracted from tables of full-text articles from the Europe PMC %please define | this is reference 35, should it be here (QTM v1.1.0)
-repository using QTLTableMiner\textsuperscript{++}, while the genomic annotations were obtained from the Sol Genomics Network (SGN), UniProt, and Ensembl Plants databases. These~datasets were transformed into Linked Data graphs, which include cross-references to many other relevant databases such as Gramene, Plant Reactome, InterPro and KEGG Orthology (KO), and so forth. Users~can query and analyze the integrated data through a web interface or programmatically via the SPARQL and RESTful services (APIs). We illustrate the usability of pbg-ld with the help of querying the genome annotations, comparing genome graphs, and two biological use cases. In the biological use case 1 we illustrate a comparative genomics study using pbg-ld to compare the difference in the genetic mechanism underlying tomato fruit shape and potato tuber-shape. In biological use case 2, %comma added
- we illustrate the usability of pbg-ld in developing a seamlessly integrative workflow that uses genomic data from pbg-ld knowledge graphs and prioritization pipelines to predict candidate genes within QTL regions for metabolic traits of tomato.
+\abstract{Genetics research is increasingly focusing on mining fully sequenced genomes and their annotations to identify the causal genes associated with traits (phenotypes) of interest. However, a~complex trait is typically associated with multiple quantitative trait loci (QTLs), each~comprising many genes, that can positively or negatively affect the trait of interest. To help breeders in ranking candidate genes, we developed an analytical platform called pbg-ld that provides semantically integrated geno- and phenotypic data on \textit{Solanaceae} %AK: italics
+species.~This platform combines both unstructured data from scientific literature and structured data from publicly available biological databases using the Linked Data approach. In particular, QTLs were extracted from tables of full-text articles from the Europe PubMed Central (PMC) %please define | this is reference 35, should it be here (QTM v1.1.0) | AK: spelled out & added acronym
+repository using QTLTableMiner\textsuperscript{++} (QTM)%AK: added acronym
+, while the genomic annotations were obtained from the Sol Genomics Network (SGN), UniProt %AK: removed comma
+and Ensembl Plants databases. These~datasets were transformed into Linked Data graphs, which include cross-references to many other relevant databases such as Gramene, Plant Reactome, InterPro and KEGG Orthology (KO). %AK: removed , and so forth.
+Users~can query and analyze the integrated data through a web interface or programmatically via the SPARQL and RESTful services (APIs). We illustrate the usability of pbg-ld by querying genome annotations, by comparing genome graphs, and by two biological use cases in Jupyter Notebooks. %AK: corrected parallelism (by); added Jupyter Notebooks
+In the first use case, %AK: spell out number; added comma
+we performed %AK: replaced verb (past tense)
+a comparative genomics study using pbg-ld to compare the difference in the genetic mechanism underlying tomato fruit shape and potato tuber shape. %AK: remove hyphen
+In the second use case, %AK: spell out number & added comma
+we developed %AK: replaced (duplicated) phrase with a verb (past tense)
+a seamlessly integrated %AK: replace ~ive with ~ed
+workflow that uses genomic data from pbg-ld knowledge graphs and prioritization pipelines to predict candidate genes within QTL regions for metabolic traits of tomato.
 }
 
 
 % Keywords
-\keyword{{prioritization of candidate genes; plant breeding; \textit{Solanaceae}; QTLs; semantic web; linked~data}}
-
+\keyword{{prioritization of candidate genes; plant breeding; \textit{Solanaceae}; QTLs; semantic web; linked data}} %AK: some in lower case
 % The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
 %\PACS{J0101}
 %\MSC{}
