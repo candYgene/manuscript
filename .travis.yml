@@ -7,4 +7,4 @@ addons:
   apt:
     update: true
 script:
-  - pdflatex applsci-915286-done/applsci-915286-done.tex
+  - cd applsci-915286-done && pdflatex applsci-915286-done.tex
