@@ -2,7 +2,12 @@
 dist: bioinic
 sudo: required
 before_install:
-  - sudo apt-get -y install texlive-latex-base texlive-latex-extra texlive-extra-utils
+  - |
+    sudo apt-get -y install \
+      texlive-latex-base \
+      texlive-latex-extra \
+      texlive-extra-utils \
+      texlive-fonts-recommended
 addons:
   apt:
     update: true
