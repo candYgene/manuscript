@@ -203,71 +203,125 @@ workflow that uses genomic data from pbg-ld knowledge graphs and prioritization 
 \section{Introduction}
 The availability of annotated reference genome assemblies for several crop species including tomato~\cite{tomato2012tomato}, potato~\cite{potato2011genome}, brassica~\cite{wang2011genome} and cucumber~\cite{huang2009genome} has enabled plant breeders and researchers to elucidate a trait’s linkage to a genomic location(s). Mining genome annotations can help in identifying candidate genes that positively or negatively affect a trait of interest, which plant breeders aim to improve. However, genome annotations are commonly available across multiple databases and file formats (e.g., in~the Generic Feature Format [GFF]), which hampers integrated data~analyses.
 
-Traditionally, plant breeders identified chromosomal regions using genetic markers that are statistically associated with traits of interest. These genomic regions are called quantitative trait loci (QTLs). A~QTL region can easily contain thousands of genes including those that negatively influence the trait of interest~\cite{chibon2012marker2sequence}. Therefore, detecting the causative gene for breeding is of major importance. There are three major approaches to address the challenge of candidate gene prediction in crop species: (i) the analysis of gene expression data or co-expression networks~\cite{astola2014inferring}, (ii) comparative genomics~\cite{shinozuka2012quantitative}, and~(iii) integrate information stored in scientific literature and in molecular biology databases such as the ELIXIR Core Data Resources~\cite{durinx2016identifying} (including ENA %please define
-~\cite{harrison2018european}, Ensembl Plants~\cite{bolser2017ensembl} and UniProt~\cite{pundir2017uniprot}) and the Sol Genomics Network (SGN) \cite{mueller2005sol}. To~address the need for improved access to integrated plant data, we developed the Solanaceae Linked Data platform (pbg-ld) \cite{Kuzniarpbgld} that combines QTLs from scientific literature and genome annotations from public databases using the Linked Data approach~\cite{Berners-Lee2006}. Our~approach is to create a semantic web of data rather than that of hypertext (HTML) documents using Uniform Resource Identifiers (URIs) and Resource Description Framework (RDF) [15]. A~URI is an HTTP-based resource identifier assigned to an entity whereas RDF is a generic graph-based data model for describing entities and their relationships. In~addition, publishing data according to FAIR Data Principles~\cite{wilkinson2016fair} further increases the degree of discoverability and (re-)usability of research~data.
+Traditionally, plant breeders identified chromosomal regions using genetic markers that are statistically associated with traits of interest. These genomic regions are called quantitative trait loci (QTLs). A~QTL region can easily contain thousands of genes including those that negatively influence the trait of interest~\cite{chibon2012marker2sequence}. Therefore, detecting the causative gene for breeding is of major importance. There are three major approaches to address the challenge of candidate gene prediction in crop species: (i) the analysis of gene expression data or co-expression networks~\cite{astola2014inferring}, (ii) comparative genomics~\cite{shinozuka2012quantitative}, and~(iii) integrate information stored in scientific literature and in molecular biology databases such as the ELIXIR Core Data Resources~\cite{durinx2016identifying} (including the European Nucleotide Archive (ENA) %please define | AK: spelled out
+~\cite{harrison2018european}, Ensembl Plants~\cite{bolser2017ensembl} and UniProt~\cite{TheUniProtConsortium}) and the Sol Genomics Network (SGN) \cite{mueller2005sol}. To~address the need for improved access to integrated plant data, we developed the \textit{Solanaceae} Linked Data platform (pbg-ld) \cite{pbg-ld} that combines QTLs from scientific literature and genome annotations from public databases using the Linked Data approach~\cite{Berners-Lee2006}. Our~approach is to create a semantic web of data rather than that of hypertext (HTML) documents using Uniform Resource Identifiers (URIs) and Resource Description Framework (RDF) [15]. A~URI is an HTTP-based resource identifier assigned to an entity whereas RDF is a generic graph-based data model for describing entities and their relationships. In~addition, publishing data according to FAIR Data Principles~\cite{wilkinson2016fair} further increases the degree of discoverability and (re-)usability of research~data.
 
-In plant sciences, several controlled vocabularies and ontologies have been developed to standardize domain-specific terms and/or represent the current knowledge of the domain in a machine-readable form.~For~example, the~\textit{Solanaceae} %italics added
-Phenotype Ontology (SPTO) \cite{SPTO}, Crop~Ontology~\cite{CO}, Plant Ontology (PO) \cite{doi:10.1093/pcp/pcs163}, Phenotypic Quality Ontology (PATO) \cite{Walls2012} and Trait Ontology (TO) \cite{TO} are used to identify plant-specific phenotypic information while Gene Ontology (GO) \cite{GOontology}, Sequence Ontology (SO) \cite{Eilbeck2005} and FALDO~\cite{FALDO} are used to identify genotypic information. Similarly, the~Chemical Entities of Biological Interest database/ontology (ChEBI) \cite{Hastings2013} is focused on small chemical~compounds. 
+In plant sciences, several controlled vocabularies and ontologies have been developed to standardize domain-specific terms and/or represent the current knowledge of the domain in a machine-readable form.~For~example, the~\textit{Solanaceae} %AK: in italics
+Phenotype Ontology (SPTO) \cite{SPTO}, %AK: updated ref.
+Crop~Ontology~\cite{CO}, Plant Ontology (PO) \cite{doi:10.1093/pcp/pcs163}, Phenotypic Quality Ontology (PATO) \cite{Walls2012} and Trait Ontology (TO) \cite{TO} are used to identify plant-specific phenotypic information while Gene Ontology (GO) \cite{GOontology}, Sequence Ontology (SO) \cite{Eilbeck2005} and Feature Annotation Location Description Ontology (FALDO) \cite{Mungall2016} %AK: spell out FALDO & updated ref.
+are used to identify genotypic information. Similarly, the~Chemical Entities of Biological Interest database/ontology (ChEBI) \cite{Hastings2013} is focused on small chemical~compounds.
 
-There are several plant-specific databases available that provide geno- and phenotypic%hyphen removed
- data. For~example, Ensembl Plants is a widely used integrated resource on plant genomes. Similarly, UniProt is a database of protein sequences, function annotations and proteomes of various species including plants. Both databases release their data in RDF-based format. The~\textit{Arabidopsis}%italixs added
-  Information Resource (TAIR) \cite{garcia2002tair} is a resource to analyze and to compare molecular, biological, and~genetical data of the model species \textit{Arabidopsis thaliana}.%Italtics added on species name
- 	 Further, the~Sol Genomics Network (SGN) \cite{mueller2005sol} provides genomic, genetic and phenotypic information for members of the \textit{Solanaceae}%italics added
- 	  family. Plant Genome DataBase Japan (PGDBj) \cite{nakaya2017plant} is an integrated web resource for plant genome-related information from literature and public databases. However, the~TAIR, SGN, and~PGDBj do not distribute their data in a semantically interoperable (RDF) format. The~Planteome~\cite{Cooper2018} database provides gene annotations and phenotypes with the help of reference ontologies such as PO, TO, GO and ChEBI. Planteome is a user-friendly tool to query traits of interest, germplasm, and~putative candidate genes. However, it~lacks QTLs, genetic markers and links to publicly available databases such as Ensembl~Plants.
+There are several plant-specific databases available that provide geno- and phenotypic data. %AK: removed hyphen
+For~example, Ensembl Plants is a widely used integrated resource on plant genomes. Similarly, UniProt is a database of protein sequences, function annotations and proteomes of various species including plants. Both databases release their data in RDF-based format. The~\textit{Arabidopsis} %AK: in italics
+Information Resource (TAIR) \cite{garcia2002tair} is a resource to analyze and to compare molecular, biological, and~genetical data of the model species \textit{Arabidopsis thaliana}. %AK: in italics
+Further, the~Sol Genomics Network (SGN) \cite{mueller2005sol} provides genomic, genetic and phenotypic information for members of the \textit{Solanaceae} %AK: in italics
+family. Plant Genome DataBase Japan (PGDBj) \cite{nakaya2017plant} is an integrated web resource for plant genome-related information from literature and public databases. However, the~TAIR, SGN, and~PGDBj do not distribute their data in a semantically interoperable (RDF) format. The~Planteome~\cite{Cooper2018} database provides gene annotations and phenotypes with the help of reference ontologies such as PO, TO, GO and ChEBI. Planteome is a user-friendly tool to query traits of interest, germplasm, and~putative candidate genes. However, it~lacks QTLs, genetic markers and links to publicly available databases such as Ensembl~Plants.
 
-We present the pbg-ld platform that provides semantically integrated geno-/pheno-typic data on \textit{Solanaceae}%italics added 
-species such as the (wild) tomato and potato species~\cite{kuzniar_arnold_2018_1458169}. The~resulting (linked) datasets are made available through a web interface or programmatic services (SPARQL and RESTful APIs). The~use of these data access points is described in the results section. Pbg-ld is an integrated plant resource that aids breeders in detecting candidate genes for complex traits using the knowledge available in the scientific literature and in public~databases.
+We present the pbg-ld platform that provides semantically integrated geno- and phenotypic data %AK: removed slash & hyphen
+on \textit{Solanaceae} %AK: in italics
+species such as the (wild) tomato and potato species. %AK: removed ref. pbg-ld cited already
+The~resulting (linked) datasets are made available through a web interface or programmatic services (SPARQL and RESTful APIs). The~use of these data access points is described in the results section. pbg-ld %AK: in lower case
+is an integrated plant resource that aids breeders in detecting candidate genes for complex traits using the knowledge available in the scientific literature and in public~databases.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Data Generation and Ingestion~Pipeline}
 
-{{{All data sets used in the creation of this linked data platform were initially classified as non-RDF based and RDF based data sources. The~first step in our data ingestion pipeline was to convert non-RDF based data sources to RDF based data graphs. Later these RDF data graphs were integrated together and published as a linked data platform.}} Figure~\ref{Figure1} illustrates the data generation and ingestion pipeline used by the pbg-ld platform. Geno- and pheno-typic data from three \textit{Solanaceae}%itelics added
-	 species:%colon added and dashes removed 
-	 (i) reference sequence tomato (\textit{S. lycopersicum}), (ii) wild tomato (\textit{S. pennellii}) and (iii) the reference sequence potato  (\textit{S. tuberosum}) is collected and integrated into this~pipeline. 
+{{{All data sets used in the creation of this linked data platform were initially classified as non-RDF based and RDF based data sources. The~first step in our data ingestion pipeline was to convert non-RDF based data sources to RDF based data graphs. Later these RDF data graphs were integrated together and published as a linked data platform.}} Figure~\ref{Figure1} illustrates the data generation and ingestion pipeline used by the pbg-ld platform.
+Geno- and phenotypic data %AK: remove hyphen
+from three \textit{Solanaceae} species: %AK: in italics & added colon
+(i) reference sequence tomato (\textit{S. lycopersicum}), (ii) wild tomato (\textit{S. pennellii}) and (iii) the reference sequence potato  (\textit{S. tuberosum}) is collected and integrated into this~pipeline.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=.95]{Figure1.pdf}
-\caption{Data generation and ingestion pipeline. All data originate from either non-Resource Description Framework (RDF) or RDF sources. Several tools are used to retrieve and transform non-RDF data into RDF graphs: QTM %please define
-is used to extract tomato and potato quantitative trait loci (QTLs) from Europe PMC %please define
- articles; OpenRefine is used to transform the QTLs into RDF according to the specified data model. Similarly, SIGA.py tool converts the genome annotations, as~provided by the Sol Genomics Network (SGN) in GFF files into RDF graphs with gene models and markers. In~addition, the~UniProt (proteomes) and Ensembl Plants (gene models) distribute their data in RDF format. All RDF graphs including domain-specific ontologies (in OWL) and database cross-references were stored and integrated with Virtuoso RDF Quad Store. The~resulting linked datasets are made available for queries and analyses through data-access layer: (i) Linked data browser, (ii) SPARQL endpoint, (iii) grlc-based Web API~\cite{Merono-Penuela2016} and (iv) FAIR Data Point (FDP) metadata (RESTful) service.}
+\includegraphics[scale=.9]{Figure1.pdf}
+\caption{Data generation and ingestion pipeline. All data originate from either non-RDF or RDF sources.
+Several tools are used to retrieve and transform non-RDF data into RDF graphs: QTLTableMiner++ (QTM) \cite{singh2018qtltableminer++} %please define | AK: spelled out & added ref.
+is used to extract tomato and potato quantitative trait loci (QTLs) from Europe PubMed Central (PMC) %please define | AK: spelled out
+articles; OpenRefine \cite{OpenRefine} %AK: added ref.
+is used to transform the QTLs into RDF according to the specified data model. Similarly, SIGA.py tool \cite{SIGA} %AK: added (updated) ref.
+converts the genome annotations, as~provided by the Sol Genomics Network (SGN) in GFF files into RDF graphs with gene models and markers. In~addition, the~UniProt (proteomes) and Ensembl Plants (gene models) distribute their data in RDF format. All RDF graphs including domain-specific ontologies (in OWL) and database cross-references were stored and integrated with Virtuoso RDF Quad Store. The~resulting linked datasets are made available for queries and analyses through data-access layer: (i) Linked data browser, (ii) SPARQL endpoint, (iii) grlc-based Web API~\cite{Merono-Penuela2016} and
+(iv) FAIR Data Point (FDP) metadata service \cite{DaSilvaSantos2016}.} %AK: added ref. & removed (RESTful)
 \label{Figure1}
 \end{figure}
 \unskip
 
 
-\subsection{Data Sources } 
+\subsection{Data Sources} 
 
-To facilitate the integration of geno- and pheno-typic data of \textit{Solanaceae} %itelics added
-species, we used data from (semi-)structured resources. Semi-structured data resources include scientific articles in XML file format obtained from Europe PMC or the General Feature Format(GFF)-based text file~\cite{europe2015europe,GFF3}. Moreover, semi-structured data were classified as non-RDF data and were subsequently transformed into (structured) RDF data. On~the contrary, structured data resources contained data in the form of RDF structure, for~example, genome annotation in Ensemble Plants and Uniprot, as~well as domain~ontologies.  
+To facilitate the integration of geno- and pheno-typic data of \textit{Solanaceae} % AK: in italics
+species, we used data from (semi-)structured resources. Semi-structured data resources include scientific articles in XML file format
+obtained from Europe PMC \cite{europe2015europe} and the General Feature Format (GFF)-based text file~\cite{GFF3}. %AK: refs. in situ & update URL for the latter
+Moreover, semi-structured data were classified as non-RDF data and were subsequently transformed into (structured) RDF data. On~the contrary, structured data resources contained data in the form of RDF structure, for~example, genome annotation in Ensemble Plants and Uniprot, as~well as domain~ontologies.
 
-\subsubsection{QTL}
-QTL studies have widely been published in scientific articles, particularly in tables or supplementary materials. However, there is no established repository where experimental data on plant-specific QTL studies can be submitted. Therefore, QTL information is extracted from XML based scientific literature and processed to RDF graphs using the QTL TableMiner\textsuperscript{++} (QTM) tool~\cite{singh2018qtltableminer++} version (v1.1.0) \cite{singh_gurnoor_2019_1193640}. QTM extracted 324 QTLs from a total of 21 \textit{Solanaceae}–specific full-text articles in the Europe PMC repository. 234 of these QTLs (i.e., 93 in tomato and 64 in potato) were associated with exact chromosomal locations based on flanking markers while the remaining 90 QTLs were associated with peak markers and/or candidate~genes. 
+\subsubsection{QTLs}
+QTL studies have widely been published in scientific articles, particularly in tables or supplementary materials. However, there is no established repository where experimental data on plant-specific QTL studies can be submitted.
+Therefore, QTL information was %AK: verb in past tense
+extracted from XML-based %AK: added hyphen
+scientific literature and processed into RDF graphs \cite{QTLs} %AK: to -> into & added ref.
+using the QTLTableMiner\textsuperscript{++} (QTM, v1.1.0)~\cite{singh2018qtltableminer++, QTM}
+and the OpenRefine software \cite{OpenRefine}.
+%AK: old QTL counts were updated according to the latest pbg-ld (v1.0.0); the results in the following sections are not affected as those are based on the latest pbg-ld version.
+QTM extracted 237 QTLs from a total of 21 \textit{Solanaceae}-specific full-text articles in the Europe PMC repository. %AK: updated number of QTLs according to pbg-ld (v1.0.0)
+147 of these QTLs (i.e., 85 in tomato and 62 in potato) were associated with exact chromosomal locations based on peak/flanking markers while 108 of the QTLs (i.e., 77 in tomato and 31 in potato) were found to encompass one or more candidate~genes. %AK: small edits required
 
-\subsubsection{SGN }
-SGN provides genome annotations in GFF files for \textit{Solanaceae} %itelics added
-species. The~GFF files were transformed into RDF graphs using the SIGA.py command-line tool (v0.5.1) \cite{Kuzniar2017} (\hl Figure \ref{FigureA1}). %MDPI: pleae check if here should be Appendix A1 Figure A1 here, and there is no this figure in the tex zip, please add it. This is now fixed
- The~gene models and the genetic markers of (wild) tomato (\textit{S. lycopersicum} and \textit{S. pennellii}) and potato (\textit{S. tuberosum}) were downloaded from the SGN’s FTP server (\url{ftp://ftp.solgenomics.net/genomes/}). For~\textit{S. lycopersicum}, the~genome annotations comprising of gene models, SGN markers, SolCAP markers, were taken from GFF files of the ITAG 2.4 released on 23-02-2014~\cite{LyocITAG2.4}. For~\textit{S.~pennelli}, the~genome annotations comprising of gene models (spenn{\_}v2.0) released on 27-08-2014, and~SGN markers released on 10-08-2014 were taken as input~\cite{PennITAG2.4}. Similarly, for~\textit{S. tuberosum}, genome annotations of PGSC{\_}DM (diploid/double monoploid) version 4.03 released on 04-09-2013 were used~\cite{PGSCDM}.
+\subsubsection{SGN}
+SGN provides genome annotations in GFF files for \textit{Solanaceae} %AK: in italics
+species. The~GFF files were transformed into RDF graphs \cite{GAs} %AK: added ref.
+using the SIGA.py command-line tool (v0.5.1) \cite{SIGA} %AK: updated ref.
+(Supplementary Figure \ref{FigureA1}). %MDPI: pleae check if here should be Appendix A1 Figure A1 here, and there is no this figure in the tex zip, please add it. This is now fixed
+ The~gene models and the genetic markers of (wild) tomato (\textit{S. lycopersicum} and \textit{S. pennellii}) and potato (\textit{S. tuberosum}) were downloaded from the SGN’s FTP server (\url{ftp://ftp.solgenomics.net/genomes/}).
+ For~\textit{S. lycopersicum}, the~genome annotations comprising of gene models, SGN and SolCAP markers %AK: replace comma with and
+ were taken from GFF files (ITAG 2.4, released on 23-02-2014)~\cite{SGN:SL}. %AK: enclosed details in parentheses; a minor update in ref.
+ For~\textit{S.~pennelli}, the~genome annotations comprising of gene models (v2.0, released on 27-08-2014) %AK: enclosed details in parentheses
+ and~SGN markers (released on 10-08-2014) %AK: enclosed details in parentheses
+ were taken as input~\cite{SGN:SP}. %AK: a minor update in ref.
+ Similarly, for~\textit{S. tuberosum}, the genome annotations %AK: added 'the'
+ of PGSC{\_}DM (diploid/double monoploid, v4.03, released on 04-09-2013) %AK: enclosed details in parentheses
+ were used~\cite{SGN:ST}. %AK: updated incorrect species name in ref.
 
 \subsubsection{Ensembl Plants and UniProt}
-Ensembl Plants is an genome-centeric integrated resource for plant sciences. Genome annotations of \textit{S. lycopersicum} (release ITAG2.4 genome annotation based on SL2.50 genome assembly) \cite{EnsemblPlantSolanumlycopersicum} and \textit{S.~tuberosum} (release PGSC{\_}DM 3.0 genome annotation  based on SolTub3.0  genome assembly) were taken from the Ensembl Plants database (release 33) \cite{EnsemblPlantSolanumtuberosum} in RDF format. The~proteomes of \textit{S.~lycopersicum} \cite{UniprotSL} and \textit{S. tuberosum} \cite{UniprotST} were obtained from UniProt in the RDF/Turtle~format. 
+Ensembl Plants is an genome-centeric integrated resource for plant sciences.
+Genome annotations of \textit{S.~lycopersicum} (release ITAG2.4 genome annotation based on SL2.50 genome assembly) \cite{EnsemblPlants:SL} and \textit{S.~tuberosum} (release PGSC{\_}DM 3.0 genome annotation based on SolTub3.0 genome assembly) were taken from the Ensembl Plants database (release 33) \cite{EnsemblPlants:ST} in RDF format. %AK a minor updates in the refs.
+The~proteomes of \textit{S.~lycopersicum} \cite{Uniprot:SL} and \textit{S.~tuberosum} \cite{Uniprot:ST} were obtained from UniProt in the RDF/Turtle~format. %AK: updated URLs in refs. 
 
 \subsection{Ontologies}
-Pbg-ld makes use of the following domain-specific ontologies: Gene Ontology (GO) \cite{GOontology}, \textit{Solanaceae} %itelics added
-Phenotype Ontology (SPTO) \cite{SPTO}, Crop ontology (CO) \cite{CO}, Sequence Types and Features Ontology (SO) \cite{Eilbeck2005}, Feature Annotation Location Description Ontology (FALDO) \cite{FALDO}, Trait Ontology (TO) \cite{TO}, UniProt Core~\cite{UniprotRDFcore}, Semanticscience Integrated Ontology (SIO) \cite{SIO}, Relation Ontology (RO)~\cite{RO}, Plant Ontology (PO) \cite{doi:10.1093/pcp/pcs163}, Phenotypic Quality Ontology (PATO) \cite{Walls2012}.
+pbg-ld %AK: in lower case
+makes use of the following domain-specific ontologies: Gene Ontology (GO) \cite{GO}, %AK: added ref. to OWL
+\textit{Solanaceae} %AK: in italics
+Phenotype Ontology (SPTO) \cite{SPTO}, Crop ontology (CO) \cite{CO}, Sequence Ontology (SO) \cite{SO}, %AK: corrected SO name & added ref. to OWL
+Feature Annotation Location Description Ontology (FALDO) \cite{FALDO}, %AK: updated title in the ref.
+Trait Ontology (TO) \cite{TO}, %AK: updated URL in ref.
+UniProt Core~\cite{UniprotRDFcore}, %AK: updated title in the ref.
+Semanticscience Integrated Ontology (SIO) \cite{SIO}, %AK: updated title in the ref.
+Relation Ontology (RO)~\cite{RO}, %AK: updated title in the ref.
+Plant Ontology (PO) \cite{PO}, %AK: added ref. to OWL
+Phenotypic Quality Ontology (PATO) \cite{PATO}. %AK: added ref. to OWL
 \\\\
 
 
 \subsection{Linked Data Deployment}
-OpenLink’s Virtuoso Universal Server (version 7.20.3217, open-source edition) was used to store and connect the data graphs in the RDF Quad Store. Pbg-ld is made as a modular and re-deployable {software} with the help of Docker~\cite{boettiger2015introduction} and Ansible~\cite{ansible}. The~pbg-ld platform including the associated RESTful web services, namely the grlc-based API for data and the FAIR Data Point API for metadata, can be deployed locally by the~user.
+OpenLink’s Virtuoso Universal Server (version 7.20.3217, open-source edition) was used to store and to connect %AK: added 'to'
+the data graphs in the RDF Quad Store.
+pbg-ld %AK: in lower case
+is made as a modular and re-deployable software with the help of Docker~\cite{boettiger2015introduction} and Ansible~\cite{ansible}. The~pbg-ld platform including the associated RESTful web services, namely the grlc-based API for data and the FAIR Data Point API for metadata \cite{FDP}, %AK: added ref.
+can be deployed locally by the~user.
 
 %\cite{Faceted_Browser}
 %\cite{Sparqlendpoint}
 \subsection{Data Access \& Analysis}
-Pbg-ld provides access to the (meta)data through a web-based user interface (Virtuoso Faceted Browser) and programmatic interfaces such as SPARQL and RESTful APIs.
-Using the web-based user interface, a~user can query the RDF triples in three different ways through (i) a free-text search box, (ii)~an entity label search box or (iii) an entity URI search box. There is a SPARQL endpoint provided for a user to write and execute SPARQL queries on the RDF graphs available in the pbg-ld platform. Further, with~the help of grlc tool~\cite{Merono-Penuela2016}, we published customized RESTful APIs, built on the top of pbg-ld’s datasets to provide easy (programmatic) access based on the SPARQL endpoint. Data~consumers who do not know the SPARQL query language can use these APIs to query the platform. This way grlc hides the complexities or intricacies of SPARQL. \hl{Supplementary} Table~\ref{SP:Table1}  %Please check if Here should be Appendix B Table A1? OK
-provides a list of RESTful APIs available in pbg-ld. Lastly, the~FAIR Data Point service is provided to expose machine-readable descriptions (metadata) about the pbg-ld datasets. To~show a valuable use case of the pbg-ld platform we have developed exemplary Jupyter (IPython) Notebooks. 
+pbg-ld %AK: in lower case
+provides access to the (meta)data through a web-based user interface (Virtuoso Faceted Browser) and programmatic interfaces such as SPARQL and RESTful APIs.
+Using the web-based user interface, a~user can query the RDF triples in three different ways through i) a free-text search box, ii)~an entity label search box or iii) an entity URI search box. %AK: removed '(' from i-iii
+There is a SPARQL endpoint provided for a user to write and execute SPARQL queries on the RDF graphs available in the pbg-ld platform. Further, with~the help of grlc tool~\cite{Merono-Penuela2016},
+we published a customized RESTful API, %AK: one API (singular)
+built on the top of pbg-ld’s datasets to provide easy (programmatic) access based on the SPARQL endpoint.
+Data~consumers who do not know the SPARQL query language can use this API %AK: one API (singular)
+to query the platform. This way grlc hides the complexities or intricacies of SPARQL. \hl{Supplementary} Table~\ref{SP:Table1}  %Please check if Here should be Appendix B Table A1? OK
+provides a list of API endpoints %AK: one API (singular) with several endpoints
+available in pbg-ld. Lastly, the~FAIR Data Point service is provided to expose machine-readable descriptions (metadata) about the pbg-ld datasets.
+To~show a valuable use case of the pbg-ld platform, %AK: added comma
+we have developed exemplary Jupyter (IPython) Notebooks \cite{Notebooks}. %AK: added ref.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Results}

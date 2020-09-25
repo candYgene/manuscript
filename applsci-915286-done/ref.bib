@@ -122,14 +122,21 @@
 
 
 %11
-@incollection{pundir2017uniprot,
-  title     = {UniProt protein knowledgebase},
-  author    = {Pundir, Sangya and Martin, Maria J and O’Donovan, Claire},
-  booktitle = {Protein Bioinformatics},
-  pages     = {41--55},
-  year      = {2017},
-  publisher = {Springer}
+@article{TheUniProtConsortium,
+  author   = {The UniProt Consortium},
+  title    = {{UniProt: a worldwide hub of protein knowledge}},
+  journal  = {Nucleic acids research},
+  volume   = {47},
+  number   = {D1},
+  pages    = {D506-D515},
+  year     = {2018},
+  month    = {11},
+  abstract = {{The UniProt Knowledgebase is a collection of sequences and annotations for over 120 million proteins across all branches of life. Detailed annotations extracted from the literature by expert curators have been collected for over half a million of these proteins. These annotations are supplemented by annotations provided by rule based automated systems, and those imported from other resources. In this article we describe significant updates that we have made over the last 2 years to the resource. We have greatly expanded the number of Reference Proteomes that we provide and in particular we have focussed on improving the number of viral Reference Proteomes. The UniProt website has been augmented with new data visualizations for the subcellular localization of proteins as well as their structure and interactions. UniProt resources are available under a CC-BY (4.0) license via the web at https://www.uniprot.org/.}},
+  issn     = {0305-1048},
+  doi      = {10.1093/nar/gky1049},
+  url      = {https://doi.org/10.1093/nar/gky1049}
 }
+
 
 %12
 @article{mueller2005sol,
@@ -144,11 +151,14 @@
 }
 
 %13
-@misc{Kuzniarpbgld,
-  author       = {Arnold Kuzniar, Gurnoor Singh},
-  title        = {Solanacea Linked Data platform},
-  howpublished = {\url{http://pbg-ld.candygene-nlesc.surf-hosted.nl/fct/}},
-  note         = {Accessed on: 01 July 2020}
+@misc{pbg-ld,
+  author       = {Kuzniar, Arnold},
+  title        = {pbg-ld},
+  month        = {9},
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.3385231}}
 }
 
 %14
@@ -174,19 +184,31 @@
 
 %16
 @article{DaSilvaSantos2016,
-  title   = {FAIR data points supporting big data interoperability},
+  title   = {FAIR Data Points supporting big data interoperability},
   author  = {da Silva Santos, LO Bonino and Wilkinson, Mark D and Kuzniar, Arnold and Kaliyaperumal, Rajaram and Thompson, Mark and Dumontier, Michel and Burger, Kees},
   journal = {Enterprise Interoperability in the Digitized and Networked Factory of the Future. London: ISTE},
-  pages   = {270--9},
+  pages   = {270--279},
   year    = {2016}
 }
 
+
+@misc{FDP,
+  author       = {Kuzniar, Arnold and Kaliyaperumal, Rajaram},
+  title        = {FAIR Data Point},
+  month        = {12},
+  year         = {2017},
+  version      = {0.5},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.1083951}}
+}
+
+
 %17
 @misc{SPTO,
-  title        = {SPTO: Solanaceae Phenotype Ontology},
-  howpublished = {\url{http://bioportal.bioontology.org/ontologies/SPTO?p=classes&conceptid=root}},
-  note         = {Accessed on: 01 July 2020}
+  title        = {Solanaceae Phenotype Ontology (SPTO)},
+  howpublished = {\url{http://bioportal.bioontology.org/ontologies/SPTO}},
+  note         = {Accessed on: 02 September 2019}
 }
+
 
 %18
 @article{CO,
@@ -235,23 +257,44 @@
   year            = {2012}
 }
 
+
+@misc{PATO,
+  title        = {Phenotype Quality Ontology (PATO)},
+  howpublished = {\url{http://purl.obolibrary.org/obo/pato.owl}},
+  note         = {Accessed on: 02 September 2019}
+}
+
+
+
 %21
 @misc{TO,
-  title        = {TO: Trait Ontology},
-  note         = {Accessed on: 01 July 2020},
-  howpublished = {\url{https://raw.githubusercontent.com/Planteome/plant-trait-ontology/master/to.owl}}
+  title        = {Trait Ontology (TO)},
+  howpublished = {\url{http://purl.obolibrary.org/obo/to.owl}},
+  note         = {Accessed on: 02 September 2019}
 }
+
 
 %22
 @article{GOontology,
-  title     = {Expansion of the Gene Ontology knowledgebase and resources},
-  author    = {Gene Ontology Consortium},
-  journal   = {Nucleic acids research},
-  volume    = {45},
-  number    = {D1},
-  pages     = {D331--D338},
-  year      = {2017},
-  publisher = {Oxford University Press}
+  author  = {The Gene Ontology Consortium},
+  title   = {Expansion of the Gene Ontology knowledgebase and resources},
+  journal = {Nucleic acids research},
+  volume  = {45},
+  number  = {D1},
+  pages   = {D331-D338},
+  year    = {2016},
+  month   = {11},
+  issn    = {0305-1048},
+  doi     = {10.1093/nar/gkw1108},
+  url     = {https://doi.org/10.1093/nar/gkw1108}
+}
+
+
+@misc{GO,
+  mendeley-groups = {Websites},
+  title           = {{Gene Ontology (GO)}},
+  howpublished    = {\url{http://purl.obolibrary.org/obo/go.owl}},
+  note            = {Accessed on: 02 September 2019}
 }
 
 
@@ -271,14 +314,25 @@
   year            = {2005}
 }
 
-
-
 %24
 @misc{FALDO,
   mendeley-groups = {Websites},
-  title           = {{FALDO Ontology}},
+  title           = {{Feature Annotation Location Description Ontology (FALDO)}},
   howpublished    = {\url{http://biohackathon.org/resource/faldo.rdf}},
-  note            = {Accessed on: 01 July 2020}
+  note            = {Accessed on: 02 September 2019}
+}
+
+@article{Mungall2016,
+  title   = {FALDO: a semantic standard for describing the location of nucleotide and protein feature annotation},
+  author  = {Bolleman, Jerven T and Mungall, Christopher J and Strozzi, Francesco and Baran, Joachim and Dumontier, Michel and Bonnal, Raoul J P and Buels, Robert and Hoehndorf, Robert and Fujisawa, Takatomo and Katayama, Toshiaki and Cock, Peter J A},
+  doi     = {10.1186/s13326-016-0067-z},
+  volume  = {7},
+  month   = {June},
+  year    = {2016},
+  journal = {Journal of biomedical semantics},
+  issn    = {2041-1480},
+  pages   = {39},
+  url     = {https://europepmc.org/articles/PMC4907002}
 }
 
 %25
@@ -359,116 +413,163 @@
 
 %30
 @article{singh2018qtltableminer++,
-  title     = {QTLTableMiner++: semantic mining of QTL tables in scientific articles},
-  author    = {Singh, Gurnoor and Kuzniar, Arnold and van Mulligen, Erik M and Gavai, Anand and Bachem, Christian W and Visser, Richard GF and Finkers, Richard},
-  journal   = {BMC bioinformatics},
-  volume    = {19},
-  number    = {1},
-  pages     = {183},
-  year      = {2018},
-  publisher = {BioMed Central}
+  title   = {QTLTableMiner++: semantic mining of QTL tables in scientific articles},
+  author  = {Singh, Gurnoor and Kuzniar, Arnold and van Mulligen, Erik M and Gavai, Anand and Bachem, Christian W and Visser, Richard G F and Finkers, Richard},
+  doi     = {10.1186/s12859-018-2165-7},
+  number  = {1},
+  volume  = {19},
+  month   = {May},
+  year    = {2018},
+  journal = {BMC bioinformatics},
+  issn    = {1471-2105},
+  pages   = {183},
+  url     = {https://europepmc.org/articles/PMC5970438}
 }
 
 
 %31
-@misc{singh_gurnoor_2019_1193640,
-  author       = {Singh, Gurnoor and
-                  Kuzniar, Arnold},
-  title        = {{QTLTableMiner++:(v1.1.0)}},
+@misc{QTM,
+  author       = {Singh, Gurnoor and Kuzniar, Arnold},
+  title        = {QTLTableMiner++},
+  month        = {8},
   year         = 2019,
-  doi          = {10.5281/zenodo.1193640},
-  howpublished = {\url{https://doi.org/10.5281/zenodo.1193640}},
-  note         = {Accessed on: 01 July 2020}
+  publisher    = {Zenodo},
+  version      = {1.1.0},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.3379014}}
 }
 
-%32
-@misc{Kuzniar2017,
+
+@misc{QTLs,
+  author       = {Kuzniar, Arnold and Singh, Gurnoor},
+  title        = {Quantitative Trait Loci of Solanaceae species},
+  month        = {9},
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {1.1},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.3383307}}
+}
+
+@misc{GAs,
   author       = {Kuzniar, Arnold},
-  doi          = {10.5281/ZENODO.1076438},
-  keywords     = {GFF,Linked Data,RDF,data interoperability,genome annotation},
-  title        = {{SIGA.py, A light-weight command-line tool to generate semantically interoperable genome annotations from GFF files.}},
-  howpublished = {\url{https://zenodo.org/record/1076438}},
-  note         = {Accessed on: 01 July 2020},
-  year         = {2017}
+  title        = {Genome annotations of Solanaceae species},
+  month        = {9},
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.3383758}}
+}
+
+
+
+%32
+@misc{SIGA,
+  author       = {Kuzniar, Arnold},
+  title        = {SIGA.py},
+  month        = {9},
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {0.5.1},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.3383113}}
 }
 
 %33
-@misc{LyocITAG2.4,
-  title        = {{Solanum{\_}lycopersicum(ITAG2.4)}},
+@misc{SGN:SL,
+  title        = {{SGN: Solanum lycopersicum (ITAG2.4)}},
   howpublished = {\url{ftp://ftp.solgenomics.net/genomes/Solanum_lycopersicum/annotation/ITAG2.4_release/}},
-  note         = {Accessed on: 01 July 2020}
+  note         = {Accessed on: 02 September 2019}
 }
+
 
 
 %34
-@misc{PennITAG2.4,
-  title        = {{Solanum{\_}pennellii(ITAG2.4)}},
+@misc{SGN:SP,
+  title        = {{SGN: Solanum pennellii (v2)}},
   howpublished = {\url{ftp://ftp.solgenomics.net/genomes/Solanum_pennellii}},
-  note         = {Accessed on: 01 July 2020}
+  note         = {Accessed on: 02 September 2019}
 }
+
 
 %35
-@misc{PGSCDM,
-  title        = {{Solanum{\_}pennellii(ITAG2.4)}},
-  howpublished = {\url{ftp://ftp.solgenomics.net/genomes/Solanum_tuberosum/}},
-  note         = {Accessed on: 01 July 2020}
+@misc{SGN:ST,
+  title        = {{SGN: Solanum tuberosum (PGSC v4.03)}},
+  howpublished = {\url{ftp://ftp.solgenomics.net/genomes/Solanum_tuberosum/annotation/PGSC_4.03/}},
+  note         = {Accessed on: 02 September 2019}
 }
 
+
 %36
-@misc{EnsemblPlantSolanumlycopersicum,
+@misc{EnsemblPlants:SL,
   mendeley-groups = {Websites},
-  title           = {{EnsemblPlant:Solanum lycopersicum}},
+  title           = {{Ensembl Plants: Solanum lycopersicum}},
   howpublished    = {\url{http://plants.ensembl.org/Solanum_lycopersicum}},
-  note            = {Accessed on: 01 July 2020}
+  note            = {Accessed on: 02 September 2019}
 }
 
 %37
-@misc{EnsemblPlantSolanumtuberosum,
+@misc{EnsemblPlants:ST,
   mendeley-groups = {Websites},
-  title           = {{EnsemblPlant:Solanum tuberosum}},
+  title           = {{Ensembl Plants: Solanum tuberosum}},
   howpublished    = {\url{http://plants.ensembl.org/Solanum_tuberosum}},
-  note            = {Accessed on: 01 July 2020}
+  note            = {Accessed on: 02 September 2019}
 }
 
 %38
-@misc{UniprotSL,
+@misc{Uniprot:SL,
   mendeley-groups = {Websites},
-  title           = {{Uniprot: Solanum Lycopersicum}},
-  howpublished    = {\url{http://www.uniprot.org/proteomes/Solanum_lycopersicum}},
-  note            = {Accessed on: 01 July 2020}
+  title           = {{UniProt: Solanum lycopersicum}},
+  howpublished    = {\url{https://www.uniprot.org/proteomes/UP000004994}},
+  note            = {Accessed on: 02 September 2019}
 }
 
 %39
-@misc{UniprotST,
+@misc{Uniprot:ST,
   mendeley-groups = {Websites},
-  title           = {{Uniprot: Solanum tuberosum}},
-  howpublished    = {\url{http://www.uniprot.org/proteomes/Solanum_tuberosum}},
-  note            = {Accessed on: 01 July 2020}
+  title           = {{UniProt: Solanum tuberosum}},
+  howpublished    = {\url{https://www.uniprot.org/proteomes/UP000011115}},
+  note            = {Accessed on: 02 September 2019}
 }
 
-%40
-@misc{UniprotRDFcore,
+@misc{SO,
   mendeley-groups = {Websites},
-  title           = {{Uniprot RDF Core Ontology}},
-  howpublished    = {\url{https://www.uniprot.org/core/}},
-  note            = {Accessed on: 01 July 2020}
+  title           = {{Sequence Ontology (SO)}},
+  howpublished    = {\url{http://purl.obolibrary.org/obo/so.owl}},
+  note            = {Accessed on: 02 September 2019}
 }
+
+
+%40
+@misc{UniprotRDFCore,
+  mendeley-groups = {Websites},
+  title           = {{UniProt RDF Schema Ontology (UniProt Core)}},
+  howpublished    = {\url{https://www.uniprot.org/core/}},
+  note            = {Accessed on: 02 September 2019}
+}
+
 
 %41
 @misc{SIO,
   mendeley-groups = {Websites},
-  title           = {{Semanticscience Integrated Ontology.}},
+  title           = {{Semanticscience Integrated Ontology (SIO)}},
   howpublished    = {\url{http://semanticscience.org/ontology/sio.owl}},
-  note            = {Accessed on: 01 July 2020}
+  note            = {Accessed on: 02 September 2019}
 }
 
 %42
 @misc{RO,
   mendeley-groups = {Websites},
-  title           = {{RO: Relation Ontology}},
+  title           = {{Relation Ontology (RO)}},
   howpublished    = {\url{http://purl.obolibrary.org/obo/ro.owl}},
-  note            = {Accessed on: 01 July 2020}
+  note            = {Accessed on: 02 September 2019}
 }
+
+
+@misc{PO,
+  mendeley-groups = {Websites},
+  title           = {{Plant Ontology (PO)}},
+  howpublished    = {\url{http://purl.obolibrary.org/obo/po.owl}},
+  note            = {Accessed on: 02 September 2019}
+}
+
 
 %43
 @article{boettiger2015introduction,
@@ -499,37 +600,6 @@
   author       = {Arnold Kuzniar and Gurnoor Singh}
 }
 
-%46
-@misc{Sparqlendpoint,
-  title        = {Pbg-ld ( SPARQL endpoint )},
-  howpublished = {\url{http://pbg-ld.candygene-nlesc.surf-hosted.nl/sparql/}},
-  journal      = {Pbg-ld ( Sparql Endpoint )},
-  author       = {A. Kuzniar and G. Singh}
-}
-
-
-%http://pbg-ld.candygene-nlesc.surf-hosted.nl/describe/?url=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FSP_0000038&sid=42&urilookup=1
-
-%47
-@misc{SPTOfruitshape,
-  title        = {{SPTO: Fruit shape}},
-  howpublished = {\url{http://pbg-ld.candygene-nlesc.surf-hosted.nl/describe/?url=http{\%}3A{\%}2F{\%}2Fpurl.obolibrary.org{\%}2Fobo{\%}2FSP_0000038&sid=42&urilookup=1}},
-  note         = {Accessed on: 01 July 2020}
-}
-
-%48
-@misc{TOfruitshape,
-  title        = {{Trait Ontology: Fruit shape}},
-  howpublished = {\url{http://pbg-ld.candygene-nlesc.surf-hosted.nl/describe/?url=http{\%}3A{\%}2F{\%}2Fpurl.obolibrary.org{\%}2Fobo{\%}2FTO{\_}0002628{\&}sid=5{\&}urilookup=1}},
-  note         = {Accessed on: 01 July 2020}
-}
-
-%49
-@misc{QTL432,
-  title        = {{QTL:4321030{\_}4{\_}14}},
-  howpublished = {\url{http://pbg-ld.candygene-nlesc.surf-hosted.nl/describe/?url=http{\%}3A{\%}2F{\%}2Flocalhost{\%}3A8890{\%}2Fgenome{\%}2FSolanum{\_}lycopersicum{\%}2Fqtl{\%}2F4321030{\_}4{\_}14{\&}sid=5}},
-  note         = {Accessed on: 01 July 2020}
-}
 
 %50
 @article{haggard2015multiple,
@@ -649,16 +719,6 @@
   author    = {Brandizi, Marco and Singh, Ajit and Hassani-Pak, Keywan},
   booktitle = {SWAT4LS},
   year      = {2018}
-}
-
-%141
-@misc{kuzniar_arnold_2018_1458169,
-  author = {Kuzniar, Arnold},
-  title  = {pbg-ld: Linked Data Platform for Plant Breeding \& Genomics},
-  month  = oct,
-  year   = 2018,
-  doi    = {10.5281/zenodo.1458169},
-  url    = {https://doi.org/10.5281/zenodo.1458169}
 }
 
 %142
@@ -911,6 +971,13 @@
 }
 
 
+@misc{Notebooks,
+  title        = {Jupyter Notebooks for the biological use cases},
+  howpublished = {\url{https://github.com/candYgene/notebooks/}},
+  note         = {Accessed on: 17 September 2020}
+}
+
+
 @article{europe2015europe,
   title     = {Europe PMC: a full-text literature database for the life sciences and platform for innovation},
   author    = {Europe PMC Consortium},
@@ -927,9 +994,9 @@
 
 
 @misc{GFF3,
-  howpublished = {\url{http://www.sequenceontology.org/resources/gff3.html}},
   title        = {Generic Feature Format version 3 (GFF3)},
-  note         = {Accessed on: 01 July 2020}
+  note         = {Accessed on: 01 July 2020},
+  howpublished = {\url{https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md}}
 }
 
 
@@ -955,4 +1022,11 @@
   title        = {Available resources of the KNETMiner tool},
   howpublished = {\url{https://knetminer.com/resources}},
   note         = {Accessed on: 31 August 2020}
+}
+
+
+@misc{OpenRefine,
+  title        = {OpenRefine},
+  howpublished = {\url{https://openrefine.org/}},
+  note         = {Accessed on: 17 September 2020}
 }
