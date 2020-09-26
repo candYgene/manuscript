@@ -1,0 +1,570 @@
+\begin{thebibliography}{-------}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Tomato Genome Consortium}(2012)]{tomato2012tomato}
+{Tomato Genome Consortium}.
+\newblock The tomato genome sequence provides insights into fleshy fruit
+  evolution.
+\newblock {\em Nature} {\bf 2012}, {\em 485},~635.
+
+\bibitem[{Potato Genome Sequencing Consortium}(2011)]{potato2011genome}
+{Potato Genome Sequencing Consortium}.
+\newblock Genome sequence and analysis of the tuber crop potato.
+\newblock {\em Nature} {\bf 2011}, {\em 475},~189.
+
+\bibitem[Wang \em{et~al.}(2011)Wang, Wang, Wang, Sun, Wu, Liu, Bai, Mun,
+  Bancroft, Cheng, and et~al]{wang2011genome}
+Wang, X.; Wang, H.; Wang, J.; Sun, R.; Wu, J.; Liu, S.; Bai, Y.; Mun, J.H.;
+  Bancroft, I.; Cheng, F.; et~al.
+\newblock The genome of the mesopolyploid crop species Brassica rapa.
+\newblock {\em Nat. Genet.} {\bf 2011}, {\em 43},~1035—1039.
+
+\bibitem[Huang \em{et~al.}(2009)Huang, Li, Zhang, Li, Gu, Fan, Lucas, Wang,
+  Xie, Ni, and et~al]{huang2009genome}
+Huang, S.; Li, R.; Zhang, Z.; Li, L.; Gu, X.; Fan, W.; Lucas, W.J.; Wang, X.;
+  Xie, B.; Ni, P.; et~al.
+\newblock The genome of the cucumber, Cucumis sativus L.
+\newblock {\em Nat. Genet.} {\bf 2009}, {\em 41},~1275.
+
+\bibitem[Chibon \em{et~al.}(2012)Chibon, Schoof, Visser, and
+  Finkers]{chibon2012marker2sequence}
+Chibon, P.Y.; Schoof, H.; Visser, R.G.; Finkers, R.
+\newblock Marker2sequence, mine your QTL regions for candidate genes.
+\newblock {\em Bioinformatics} {\bf 2012}, {\em 28},~1921--1922.
+
+\bibitem[Astola \em{et~al.}(2014)Astola, Stigter, van Dijk, van Daelen, and
+  Molenaar]{astola2014inferring}
+Astola, L.; Stigter, H.; van Dijk, A.D.; van Daelen, R.; Molenaar, J.
+\newblock Inferring the gene network underlying the branching of tomato
+  inflorescence.
+\newblock {\em PloS ONE} {\bf 2014}, {\em 9},~e89689.
+
+\bibitem[Shinozuka \em{et~al.}(2012)Shinozuka, Cogan, Spangenberg, and
+  Forster]{shinozuka2012quantitative}
+Shinozuka, H.; Cogan, N.O.; Spangenberg, G.C.; Forster, J.W.
+\newblock Quantitative Trait Locus (QTL) meta-analysis and comparative genomics
+  for candidate gene prediction in perennial ryegrass (Lolium perenne L.).
+\newblock {\em BMC Genet.} {\bf 2012}, {\em 13},~101.
+
+\bibitem[Durinx \em{et~al.}(2016)Durinx, McEntyre, Appel, Apweiler, Barlow,
+  Blomberg, Cook, Gasteiger, Kim, Lopez, and et~al]{durinx2016identifying}
+Durinx, C.; McEntyre, J.; Appel, R.; Apweiler, R.; Barlow, M.; Blomberg, N.;
+  Cook, C.; Gasteiger, E.; Kim, J.H.; Lopez, R.; et~al.
+\newblock Identifying ELIXIR Core Data Resources.
+\newblock {\em F1000Research} {\bf 2016}, {\em 5},~1--16.
+
+\bibitem[Harrison \em{et~al.}(2018)Harrison, Alako, Amid,
+  Cerde{\~n}o-T{\'a}rraga, Cleland, Holt, Hussein, Jayathilaka, Kay, Keane, and
+  et~al]{harrison2018european}
+Harrison, P.W.; Alako, B.; Amid, C.; Cerde{\~n}o-T{\'a}rraga, A.; Cleland, I.;
+  Holt, S.; Hussein, A.; Jayathilaka, S.; Kay, S.; Keane, T.; et~al.
+\newblock The European Nucleotide Archive in 2018.
+\newblock {\em Nucleic Acids Res.} {\bf 2018}, {\em 47},~D84--D88.
+
+\bibitem[Bolser \em{et~al.}(2017)Bolser, Staines, Perry, and
+  Kersey]{bolser2017ensembl}
+Bolser, D.M.; Staines, D.M.; Perry, E.; Kersey, P.J.
+\newblock Ensembl Plants: integrating tools for visualizing, mining, and
+  analyzing plant genomic data. In {\em Plant Genomics Databases}; Springer,
+  2017; pp. 1--31.
+
+\bibitem[{The UniProt Consortium}(2018)]{TheUniProtConsortium}
+{The UniProt Consortium}.
+\newblock {UniProt: a worldwide hub of protein knowledge}.
+\newblock {\em Nucleic Acids Res.} {\bf 2018}, {\em 47},~D506--D515.
+
+\bibitem[Mueller \em{et~al.}(2005)Mueller, Solow, Taylor, Skwarecki, Buels,
+  Binns, Lin, Wright, Ahrens, Wang, and et~al]{mueller2005sol}
+Mueller, L.A.; Solow, T.H.; Taylor, N.; Skwarecki, B.; Buels, R.; Binns, J.;
+  Lin, C.; Wright, M.H.; Ahrens, R.; Wang, Y.; et~al.
+\newblock The SOL Genomics Network. A comparative resource for Solanaceae
+  biology and beyond.
+\newblock {\em Plant Physiol.} {\bf 2005}, {\em 138},~1310--1317.
+
+\bibitem[Kuzniar(2019)]{pbg-ld}
+Kuzniar, A.
+\newblock pbg-ld.
+\newblock \url{https://doi.org/10.5281/zenodo.3385231},  2019.
+
+\bibitem[Berners-Lee(2006)]{Berners-Lee2006}
+Berners-Lee, T.
+\newblock Linked Data.
+\newblock Available online:
+  \url{https://www.w3.org/DesignIssues/LinkedData.html},  2006.
+\newblock (accessed on 01 July 2020).
+
+\bibitem[Wilkinson \em{et~al.}(2016)Wilkinson, Dumontier, Aalbersberg,
+  Appleton, Axton, Baak, Blomberg, Boiten, da~Silva~Santos, Bourne, and
+  et~al]{wilkinson2016fair}
+Wilkinson, M.D.; Dumontier, M.; Aalbersberg, I.J.; Appleton, G.; Axton, M.;
+  Baak, A.; Blomberg, N.; Boiten, J.W.; da~Silva~Santos, L.B.; Bourne, P.E.;
+  et~al.
+\newblock The FAIR Guiding Principles for scientific data management and
+  stewardship.
+\newblock {\em Sci. Data} {\bf 2016}, {\em 3},~1--9.
+
+\bibitem[SPT()]{SPTO}
+Solanaceae Phenotype Ontology (SPTO).
+\newblock Available online:
+  \url{http://bioportal.bioontology.org/ontologies/SPTO}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Shrestha \em{et~al.}(2012)Shrestha, Matteis, Skofic, Portugal,
+  McLaren, Hyman, and Arnaud]{CO}
+Shrestha, R.; Matteis, L.; Skofic, M.; Portugal, A.; McLaren, G.; Hyman, G.;
+  Arnaud, E.
+\newblock {Bridging the phenotypic and genetic data useful for integrated
+  breeding through a data annotation using the Crop Ontology developed by the
+  crop communities of practice}.
+\newblock {\em Front. Physiol.} {\bf 2012}, {\em 3},~326.
+
+\bibitem[Cooper \em{et~al.}(2013)Cooper, Walls, Elser, Gandolfo, Stevenson,
+  Smith, Preece, Athreya, Mungall, Rensing, and et~al]{doi:10.1093/pcp/pcs163}
+Cooper, L.; Walls, R.L.; Elser, J.; Gandolfo, M.A.; Stevenson, D.W.; Smith, B.;
+  Preece, J.; Athreya, B.; Mungall, C.J.; Rensing, S.; et~al.
+\newblock The Plant Ontology as a Tool for Comparative Plant Anatomy and
+  Genomic Analyses.
+\newblock {\em Plant Cell Physiol.} {\bf 2013}, {\em 54},~e1.
+
+\bibitem[Walls \em{et~al.}(2012)Walls, Athreya, Cooper, Elser, Gandolfo,
+  Jaiswal, Mungall, Preece, Rensing, Smith, and et~al]{Walls2012}
+Walls, R.L.; Athreya, B.; Cooper, L.; Elser, J.; Gandolfo, M.A.; Jaiswal, P.;
+  Mungall, C.J.; Preece, J.; Rensing, S.; Smith, B.; et~al.
+\newblock Ontologies as integrative tools for plant science.
+\newblock {\em Am. J. Bot.} {\bf 2012}, {\em 99},~1263--1275.
+
+\bibitem[TO()]{TO}
+Trait Ontology (TO).
+\newblock Available online: \url{http://purl.obolibrary.org/obo/to.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[{The Gene Ontology Consortium}(2017)]{GOontology}
+{The Gene Ontology Consortium}.
+\newblock Expansion of the Gene Ontology knowledgebase and resources.
+\newblock {\em Nucleic Acids Res.} {\bf 2017}, {\em 45},~D331--D338.
+
+\bibitem[Eilbeck \em{et~al.}(2005)Eilbeck, Lewis, Mungall, Yandell, Stein,
+  Durbin, and Ashburner]{Eilbeck2005}
+Eilbeck, K.; Lewis, S.E.; Mungall, C.J.; Yandell, M.; Stein, L.; Durbin, R.;
+  Ashburner, M.
+\newblock The Sequence Ontology: a tool for the unification of genome
+  annotations.
+\newblock {\em Genome Biol.} {\bf 2005}, {\em 6},~R44.
+
+\bibitem[Bolleman \em{et~al.}(2016)Bolleman, Mungall, Strozzi, Baran,
+  Dumontier, Bonnal, Buels, Hoehndorf, Fujisawa, Katayama, and
+  et~al]{Mungall2016}
+Bolleman, J.T.; Mungall, C.J.; Strozzi, F.; Baran, J.; Dumontier, M.; Bonnal,
+  R.J.P.; Buels, R.; Hoehndorf, R.; Fujisawa, T.; Katayama, T.; et~al.
+\newblock FALDO: a semantic standard for describing the location of nucleotide
+  and protein feature annotation.
+\newblock {\em J. Biomed. Semantics} {\bf 2016}, {\em 7},~39.
+
+\bibitem[Hastings \em{et~al.}(2013)Hastings, de~Matos, Dekker, Ennis, Harsha,
+  Kale, Muthukrishnan, Owen, Turner, Williams, and et~al]{Hastings2013}
+Hastings, J.; de~Matos, P.; Dekker, A.; Ennis, M.; Harsha, B.; Kale, N.;
+  Muthukrishnan, V.; Owen, G.; Turner, S.; Williams, M.; et~al.
+\newblock The ChEBI reference database and ontology for biologically relevant
+  chemistry: enhancements for 2013.
+\newblock {\em Nucleic Acids Res.} {\bf 2013}, {\em 41},~D456--D463.
+
+\bibitem[Garcia-Hernandez \em{et~al.}(2002)Garcia-Hernandez, Berardini, Chen,
+  Crist, Doyle, Huala, Knee, Lambrecht, Miller, Mueller, and
+  et~al]{garcia2002tair}
+Garcia-Hernandez, M.; Berardini, T.; Chen, G.; Crist, D.; Doyle, A.; Huala, E.;
+  Knee, E.; Lambrecht, M.; Miller, N.; Mueller, L.A.; et~al.
+\newblock TAIR: a resource for integrated Arabidopsis data.
+\newblock {\em Funct. Integr. Genom.} {\bf 2002}, {\em 2},~239--253.
+
+\bibitem[Nakaya \em{et~al.}(2017)Nakaya, Ichihara, Asamizu, Shirasawa,
+  Nakamura, Tabata, and Hirakawa]{nakaya2017plant}
+Nakaya, A.; Ichihara, H.; Asamizu, E.; Shirasawa, S.; Nakamura, Y.; Tabata, S.;
+  Hirakawa, H.
+\newblock Plant genome database japan (PGDBj). In {\em Plant Genomics
+  Databases}; Springer: Berlin/Heidelberg, Germany,  2017; pp. 45--77.
+
+\bibitem[Cooper \em{et~al.}(2018)Cooper, Meier, Laporte, Elser, Mungall, Sinn,
+  Cavaliere, Carbon, Dunn, Smith, and et~al]{Cooper2018}
+Cooper, L.; Meier, A.; Laporte, M.A.; Elser, J.L.; Mungall, C.; Sinn, B.T.;
+  Cavaliere, D.; Carbon, S.; Dunn, N.A.; Smith, B.; et~al.
+\newblock The Planteome database: an integrated resource for reference
+  ontologies, plant genomics and phenomics.
+\newblock {\em Nucleic Acids Res.} {\bf 2018}, {\em 46},~D1168--D1180.
+
+\bibitem[Singh \em{et~al.}(2018)Singh, Kuzniar, van Mulligen, Gavai, Bachem,
+  Visser, and Finkers]{singh2018qtltableminer++}
+Singh, G.; Kuzniar, A.; van Mulligen, E.M.; Gavai, A.; Bachem, C.W.; Visser,
+  R.G.F.; Finkers, R.
+\newblock QTLTableMiner++: semantic mining of QTL tables in scientific
+  articles.
+\newblock {\em BMC Bioinform.} {\bf 2018}, {\em 19},~183.
+
+\bibitem[Ope()]{OpenRefine}
+OpenRefine.
+\newblock Available online: \url{https://openrefine.org/}.
+\newblock (accessed on 17 September 2020).
+
+\bibitem[Kuzniar(2019)]{SIGA}
+Kuzniar, A.
+\newblock SIGA.py.
+\newblock Available online: \url{https://doi.org/10.5281/zenodo.3383113},
+  2019.
+
+\bibitem[Mero{\~{n}}o-Pe{\~{n}}uela and Hoekstra(2016)]{Merono-Penuela2016}
+Mero{\~{n}}o-Pe{\~{n}}uela, A.; Hoekstra, R.
+\newblock {grlc Makes GitHub Taste Like Linked Data APIs}.
+\newblock  The Semantic Web; Sack, H.; Rizzo, G.; Steinmetz, N.;
+  Mladeni{\'{c}}, D.; Auer, S.; Lange, C., Eds.; Springer International
+  Publishing: Cham, Switzerland,  2016; pp. 342--353.
+
+\bibitem[da~Silva~Santos \em{et~al.}(2016)da~Silva~Santos, Wilkinson, Kuzniar,
+  Kaliyaperumal, Thompson, Dumontier, and Burger]{DaSilvaSantos2016}
+da~Silva~Santos, L.B.; Wilkinson, M.D.; Kuzniar, A.; Kaliyaperumal, R.;
+  Thompson, M.; Dumontier, M.; Burger, K.
+\newblock FAIR Data Points supporting big data interoperability. In {\em
+  Enterprise Interoperability in the Digitized and Networked Factory of the
+  Future}; ISTE: Guimaraes, Portugal,  2016; pp. 270--279.
+
+\bibitem[{Europe PMC Consortium}(2015)]{europe2015europe}
+{Europe PMC Consortium}.
+\newblock Europe PMC: a full-text literature database for the life sciences and
+  platform for innovation.
+\newblock {\em Nucleic Acids Res.} {\bf 2015}, {\em 43},~D1042--D1048.
+
+\bibitem[GFF()]{GFF3}
+Generic Feature Format version 3 (GFF3).
+\newblock Available online:
+  \url{https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md}.
+\newblock (accessed on 17 September 2020).
+
+\bibitem[Kuzniar and Singh(2019)]{QTLs}
+Kuzniar, A.; Singh, G.
+\newblock Quantitative Trait Loci of Solanaceae species.
+\newblock Available online: \url{https://doi.org/10.5281/zenodo.3383307},
+  2019.
+
+\bibitem[Singh and Kuzniar(2019)]{QTM}
+Singh, G.; Kuzniar, A.
+\newblock QTLTableMiner++.
+\newblock Available online: \url{https://doi.org/10.5281/zenodo.3379014},
+  2019.
+
+\bibitem[Kuzniar(2019)]{GAs}
+Kuzniar, A.
+\newblock Genome annotations of Solanaceae species.
+\newblock Available online: \url{https://doi.org/10.5281/zenodo.3383758},
+  2019.
+
+\bibitem[SGN({\natexlab{a}})]{SGN:SL}
+{SGN: Solanum lycopersicum (ITAG2.4)}.
+\newblock Available online:
+  \url{ftp://ftp.solgenomics.net/genomes/Solanum_lycopersicum/annotation/ITAG2.4_release/}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[SGN({\natexlab{b}})]{SGN:SP}
+{SGN: Solanum pennellii (v2)}.
+\newblock Available online:
+  \url{ftp://ftp.solgenomics.net/genomes/Solanum_pennellii}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[SGN({\natexlab{c}})]{SGN:ST}
+{SGN: Solanum tuberosum (PGSC v4.03)}.
+\newblock Available online:
+  \url{ftp://ftp.solgenomics.net/genomes/Solanum_tuberosum/annotation/PGSC_4.03/}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Ens({\natexlab{a}})]{EnsemblPlants:SL}
+{Ensembl Plants: Solanum lycopersicum}.
+\newblock Available online:
+  \url{http://plants.ensembl.org/Solanum_lycopersicum}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Ens({\natexlab{b}})]{EnsemblPlants:ST}
+{Ensembl Plants: Solanum tuberosum}.
+\newblock Available online: \url{http://plants.ensembl.org/Solanum_tuberosum}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Uni({\natexlab{a}})]{Uniprot:SL}
+{UniProt: Solanum lycopersicum}.
+\newblock Available online:
+  \url{https://www.uniprot.org/proteomes/UP000004994}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Uni({\natexlab{b}})]{Uniprot:ST}
+{UniProt: Solanum tuberosum}.
+\newblock Available online:
+  \url{https://www.uniprot.org/proteomes/UP000011115}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[GO()]{GO}
+{Gene Ontology (GO)}.
+\newblock Available online: \url{http://purl.obolibrary.org/obo/go.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[SO()]{SO}
+{Sequence Ontology (SO)}.
+\newblock Available online: \url{http://purl.obolibrary.org/obo/so.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[FAL()]{FALDO}
+{Feature Annotation Location Description Ontology (FALDO)}.
+\newblock Available online: \url{http://biohackathon.org/resource/faldo.rdf}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Uni()]{UniprotRDFcore}
+{UniProt RDF Schema Ontology (UniProt Core)}.
+\newblock Available online: \url{https://www.uniprot.org/core/}.
+\newblock (accessed on: 02 September 2019).
+
+\bibitem[SIO()]{SIO}
+{Semanticscience Integrated Ontology (SIO)}.
+\newblock Available online: \url{http://semanticscience.org/ontology/sio.owl}.
+\newblock (accessed on 02 September 2019.
+
+\bibitem[RO()]{RO}
+{Relation Ontology (RO)}.
+\newblock Available online: \url{http://purl.obolibrary.org/obo/ro.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[PO()]{PO}
+{Plant Ontology (PO)}.
+\newblock Available online: \url{http://purl.obolibrary.org/obo/po.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[PAT()]{PATO}
+Phenotype Quality Ontology (PATO).
+\newblock Available online: \url{http://purl.obolibrary.org/obo/pato.owl}.
+\newblock (accessed on 02 September 2019).
+
+\bibitem[Boettiger(2015)]{boettiger2015introduction}
+Boettiger, C.
+\newblock An introduction to Docker for reproducible research.
+\newblock {\em ACM SIGOPS Oper. Syst. Rev.} {\bf 2015}, {\em 49},~71--79.
+
+\bibitem[ans()]{ansible}
+{Ansible}.
+\newblock Available online: \url{https://www.ansible.com/}.
+\newblock (accessed on 01 July 2020).
+
+\bibitem[Kuzniar and Kaliyaperumal(2017)]{FDP}
+Kuzniar, A.; Kaliyaperumal, R.
+\newblock FAIR Data Point.
+\newblock \url{https://doi.org/10.5281/zenodo.1083951},  2017.
+
+\bibitem[Not()]{Notebooks}
+Jupyter Notebooks for the biological use cases.
+\newblock Available online: \url{https://github.com/candYgene/notebooks/}.
+\newblock (accessed on 17 September 2020).
+
+\bibitem[Kluyver \em{et~al.}(2016)Kluyver, Ragan-Kelley, P{\'e}rez, Granger,
+  Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, and
+  et~al]{kluyver2016jupyter}
+Kluyver, T.; Ragan-Kelley, B.; P{\'e}rez, F.; Granger, B.E.; Bussonnier, M.;
+  Frederic, J.; Kelley, K.; Hamrick, J.B.; Grout, J.; Corlay, S.; et~al.
+\newblock Jupyter Notebooks-a publishing format for reproducible computational
+  workflows.
+\newblock  ELPUB,  2016, pp. 87--90.
+
+\bibitem[Haggard \em{et~al.}(2015)Haggard, Johnson, and
+  Clair]{haggard2015multiple}
+Haggard, J.E.; Johnson, E.B.; Clair, D.A.S.
+\newblock Multiple QTL for horticultural traits and quantitative resistance to
+  Phytophthora infestans linked on Solanum habrochaites chromosome 11.
+\newblock {\em G3 (Bethesda)} {\bf 2015}, {\em 5},~219--233.
+
+\bibitem[Wu \em{et~al.}(2018)Wu, Zhang, Keyhaninejad, Rodríguez, Kim,
+  Chakrabarti, Illa-Berenguer, Taitano, Gonzalo, Díaz, and
+  et~al]{wu2018common}
+Wu, S.; Zhang, B.; Keyhaninejad, N.; Rodríguez, G.R.; Kim, H.J.; Chakrabarti,
+  M.; Illa-Berenguer, E.; Taitano, N.K.; Gonzalo, M.; Díaz, A.; et~al.
+\newblock A common genetic mechanism underlies morphological diversity in
+  fruits and other plant organs.
+\newblock {\em Nat. Commun.} {\bf 2018}, {\em 9},~4734.
+
+\bibitem[Ballester \em{et~al.}(2016)Ballester, Tikunov, Molthoff, Grandillo,
+  Viquez-Zamora, de~Vos, de~Maagd, van Heusden, and
+  Bovy]{ballester2016identification}
+Ballester, A.; Tikunov, Y.; Molthoff, J.; Grandillo, S.; Viquez-Zamora, M.;
+  de~Vos, R.; de~Maagd, R.; van Heusden, S.; Bovy, A.
+\newblock Identification of Loci Affecting Accumulation of Secondary
+  Metabolites in Tomato Fruit of a Solanum lycopersicum X Solanum chmielewskii
+  Introgression Line Population.
+\newblock {\em Front. Plant Sci.} {\bf 2016}, {\em 7},~1428.
+
+\bibitem[Shulaev \em{et~al.}(1997)Shulaev, Silverman, and
+  Raskin]{shulaev1997airborne}
+Shulaev, V.; Silverman, P.; Raskin, I.
+\newblock Airborne signalling by methyl salicylate in plant pathogen
+  resistance.
+\newblock {\em Nature} {\bf 1997}, {\em 385},~718.
+
+\bibitem[Luengwilai \em{et~al.}(2010)Luengwilai, Fiehn, and
+  Beckles]{luengwilai2010comparison}
+Luengwilai, K.; Fiehn, O.E.; Beckles, D.M.
+\newblock Comparison of leaf and fruit metabolism in two tomato (Solanum
+  lycopersicum L.) genotypes varying in total soluble solids.
+\newblock {\em J. Agric. Food Chem.} {\bf 2010}, {\em 58},~11790--11800.
+
+\bibitem[Di~Mascio \em{et~al.}(1989)Di~Mascio, Kaiser, and
+  Sies]{di1989lycopene}
+Di~Mascio, P.; Kaiser, S.; Sies, H.
+\newblock Lycopene as the most efficient biological carotenoid singlet oxygen
+  quencher.
+\newblock {\em Arch. Biochem. Biophys.} {\bf 1989}, {\em 274},~532--538.
+
+\bibitem[Falara \em{et~al.}(2011)Falara, Akhtar, Nguyen, Spyropoulou, Bleeker,
+  Schauvinhold, Matsuba, Bonini, Schilmiller, Last, and
+  et~al]{falara2011tomato}
+Falara, V.; Akhtar, T.A.; Nguyen, T.T.; Spyropoulou, E.A.; Bleeker, P.M.;
+  Schauvinhold, I.; Matsuba, Y.; Bonini, M.E.; Schilmiller, A.L.; Last, R.L.;
+  et~al.
+\newblock The tomato terpene synthase gene family.
+\newblock {\em Plant Physiol.} {\bf 2011}, {\em 157},~770--789.
+
+\bibitem[Warwick~Vesztrocy \em{et~al.}(2018)Warwick~Vesztrocy, Dessimoz, and
+  Redestig]{warwick2018prioritising}
+Warwick~Vesztrocy, A.; Dessimoz, C.; Redestig, H.
+\newblock Prioritising candidate genes causing QTL using hierarchical
+  orthologous groups.
+\newblock {\em Bioinformatics} {\bf 2018}, {\em 34},~i612--i619.
+
+\bibitem[Lin \em{et~al.}(2019)Lin, Fan, and Rhee]{lin2019qtg}
+Lin, F.; Fan, J.; Rhee, S.Y.
+\newblock QTG-Finder: a machine-learning based algorithm to prioritize causal
+  genes of quantitative trait loci in Arabidopsis and rice.
+\newblock {\em bioRxiv} {\bf 2019}, p. 484204.
+
+\bibitem[Schneider \em{et~al.}(2007)Schneider, Dessimoz, and
+  Gonnet]{schneider2007oma}
+Schneider, A.; Dessimoz, C.; Gonnet, G.H.
+\newblock OMA Browser—exploring orthologous relations across 352 complete
+  genomes.
+\newblock {\em Bioinformatics} {\bf 2007}, {\em 23},~2180--2182.
+
+\bibitem[Fridman \em{et~al.}(2002)Fridman, Liu, Carmel-Goren, Gur, Shoresh,
+  Pleban, Eshed, and Zamir]{fridman2002two}
+Fridman, E.; Liu, Y.; Carmel-Goren, L.; Gur, A.; Shoresh, M.; Pleban, T.;
+  Eshed, Y.; Zamir, D.
+\newblock Two tightly linked QTLs modify tomato sugar content via different
+  physiological pathways.
+\newblock {\em Mol. Genet. Genomics} {\bf 2002}, {\em 266},~821--826.
+
+\bibitem[Bouvier \em{et~al.}(2000)Bouvier, D’Harlingue, Backhaus, Kumagai,
+  and Camara]{bouvier2000identification}
+Bouvier, F.; D’Harlingue, A.; Backhaus, R.A.; Kumagai, M.H.; Camara, B.
+\newblock Identification of neoxanthin synthase as a carotenoid cyclase
+  paralog.
+\newblock {\em Eur. J. Biochem.} {\bf 2000}, {\em 267},~6346--6352.
+
+\bibitem[Tadmor \em{et~al.}(2002)Tadmor, Fridman, Gur, Larkov, Lastochkin,
+  Ravid, Zamir, and Lewinsohn]{tadmor2002identification}
+Tadmor, Y.; Fridman, E.; Gur, A.; Larkov, O.; Lastochkin, E.; Ravid, U.; Zamir,
+  D.; Lewinsohn, E.
+\newblock Identification of malodorous, a wild species allele affecting tomato
+  aroma that was selected against during domestication.
+\newblock {\em J. Agric. Food Chem.} {\bf 2002}, {\em 50},~2005--2009.
+
+\bibitem[Marti \em{et~al.}(2016)Marti, Rosello, and
+  Cebolla-Cornejo]{marti2016tomato}
+Marti, R.; Rosello, S.; Cebolla-Cornejo, J.
+\newblock Tomato as a source of carotenoids and polyphenols targeted to cancer
+  prevention.
+\newblock {\em Cancers} {\bf 2016}, {\em 8},~58.
+
+\bibitem[Giuliano(2014)]{giuliano2014plant}
+Giuliano, G.
+\newblock Plant carotenoids: genomics meets multi-gene engineering.
+\newblock {\em Curr. Opin. Plant Biol.} {\bf 2014}, {\em 19},~111--117.
+
+\bibitem[Shi \em{et~al.}(2004)Shi, Kakuda, and Yeung]{shi2004antioxidative}
+Shi, J.; Kakuda, Y.; Yeung, D.
+\newblock Antioxidative properties of lycopene and other carotenoids from
+  tomatoes: synergistic effects.
+\newblock {\em Biofactors} {\bf 2004}, {\em 21},~203--210.
+
+\bibitem[Cunningham \em{et~al.}(1996)Cunningham, Pogson, Sun, McDonald,
+  DellaPenna, and Gantt]{cunningham1996functional}
+Cunningham, F.X.; Pogson, B.; Sun, Z.; McDonald, K.A.; DellaPenna, D.; Gantt,
+  E.
+\newblock Functional analysis of the beta and epsilon lycopene cyclase enzymes
+  of Arabidopsis reveals a mechanism for control of cyclic carotenoid
+  formation.
+\newblock {\em Plant Cell} {\bf 1996}, {\em 8},~1613--1626.
+
+\bibitem[Rousseaux \em{et~al.}(2005)Rousseaux, Jones, Adams, Chetelat, Bennett,
+  and Powell]{rousseaux2005qtl}
+Rousseaux, M.C.; Jones, C.M.; Adams, D.; Chetelat, R.; Bennett, A.; Powell, A.
+\newblock QTL analysis of fruit antioxidants in tomato using Lycopersicon
+  pennellii introgression lines.
+\newblock {\em Theor. Appl. Genet.} {\bf 2005}, {\em 111},~1396--1408.
+
+\bibitem[Tieman \em{et~al.}(2007)Tieman, Loucas, Kim, Clark, and
+  Klee]{tieman2007tomato}
+Tieman, D.M.; Loucas, H.M.; Kim, J.Y.; Clark, D.G.; Klee, H.J.
+\newblock Tomato phenylacetaldehyde reductases catalyze the last step in the
+  synthesis of the aroma volatile 2-phenylethanol.
+\newblock {\em Phytochemistry} {\bf 2007}, {\em 68},~2660--2669.
+
+\bibitem[Zhang \em{et~al.}(2015)Zhang, Zhao, Xu, Liang, Chang, Yan, Li, Liang,
+  and Zou]{zhang2015genome}
+Zhang, J.; Zhao, J.; Xu, Y.; Liang, J.; Chang, P.; Yan, F.; Li, M.; Liang, Y.;
+  Zou, Z.
+\newblock Genome-wide association mapping for tomato volatiles positively
+  contributing to tomato flavor.
+\newblock {\em Front. Plant Sci.} {\bf 2015}, {\em 6},~1042.
+
+\bibitem[Socaci \em{et~al.}(2014)Socaci, Socaciu, Mure{\c{s}}an,
+  F{\u{a}}rca{\c{s}}, Tofan{\u{a}}, Vica{\c{s}}, and
+  Pintea]{socaci2014chemometric}
+Socaci, S.A.; Socaciu, C.; Mure{\c{s}}an, C.; F{\u{a}}rca{\c{s}}, A.;
+  Tofan{\u{a}}, M.; Vica{\c{s}}, S.; Pintea, A.
+\newblock Chemometric discrimination of different tomato cultivars based on
+  their volatile fingerprint in relation to lycopene and total phenolics
+  content.
+\newblock {\em Phytochem. Anal.} {\bf 2014}, {\em 25},~161--169.
+
+\bibitem[Rambla \em{et~al.}(2016)Rambla, Medina, Fernandez-del Carmen,
+  Barrantes, Grandillo, Cammareri, Lopez-Casado, Rodrigo, Alonso,
+  Garcia-Martinez, and et~al]{rambla2016identification}
+Rambla, J.L.; Medina, A.; Fernandez-del Carmen, A.; Barrantes, W.; Grandillo,
+  S.; Cammareri, M.; Lopez-Casado, G.; Rodrigo, G.; Alonso, A.;
+  Garcia-Martinez, S.; et~al.
+\newblock Identification, introgression, and validation of fruit volatile QTLs
+  from a red-fruited wild tomato species.
+\newblock {\em J. Exp. Bot.} {\bf 2016}, {\em 68},~429--442.
+
+\bibitem[Hassani-Pak and Rawlings(2017)]{hassani2017knowledge}
+Hassani-Pak, K.; Rawlings, C.
+\newblock Knowledge discovery in biological databases for revealing candidate
+  genes linked to complex phenotypes.
+\newblock {\em J. Integr. Bioinform.} {\bf 2017}, {\em 14},~1--9.
+
+\bibitem[Kne()]{Knetresources}
+KNETMiner.
+\newblock Available online: \url{https://knetminer.com/resources}.
+\newblock (accessed on 31 August 2020).
+
+\bibitem[Hulse-Kemp \em{et~al.}(2018)Hulse-Kemp, Maheshwari, Stoffel, Hill,
+  Jaffe, Williams, Weisenfeld, Ramakrishnan, Kumar, Shah, and
+  et~al]{hulse2018reference}
+Hulse-Kemp, A.M.; Maheshwari, S.; Stoffel, K.; Hill, T.A.; Jaffe, D.; Williams,
+  S.R.; Weisenfeld, N.; Ramakrishnan, S.; Kumar, V.; Shah, P.; et~al.
+\newblock Reference quality assembly of the 3.5-Gb genome of Capsicum annuum
+  from a single linked-read library.
+\newblock {\em Hortic. Res.} {\bf 2018}, {\em 5},~4.
+
+\bibitem[Hirakawa \em{et~al.}(2014)Hirakawa, Shirasawa, Miyatake, Nunome,
+  Negoro, Ohyama, Yamaguchi, Sato, Isobe, Tabata, and et~al]{hirakawa2014draft}
+Hirakawa, H.; Shirasawa, K.; Miyatake, K.; Nunome, T.; Negoro, S.; Ohyama, A.;
+  Yamaguchi, H.; Sato, S.; Isobe, S.; Tabata, S.; et~al.
+\newblock Draft genome sequence of eggplant (Solanum melongena L.): the
+  representative solanum species indigenous to the old world.
+\newblock {\em DNA Res.} {\bf 2014}, {\em 21},~649--660.
+
+\bibitem[Singh(2019)]{singh2019dissertation}
+Singh, G.
+\newblock Genomics data integration for knowledge discovery using genome
+  annotations from molecular databases and scientific literature.
+\newblock PhD thesis, Wageningen University, Wageningen, The Netherlads,  2019.
+
+\end{thebibliography}
